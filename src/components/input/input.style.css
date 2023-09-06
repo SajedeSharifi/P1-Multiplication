@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.input-output-container {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(3fr,1fr));
+    grid-template-rows: auto;
+    grid-template-areas: "output output . input";
+    gap: 10px;
+    justify-items: end;
+    justify-content: space-around;
+    margin-top: 8%;
+    
+}
+.inputNum{
+    grid-area: input;
+    background-color: rgb(246, 220, 172);
+    width: 25vw;
+    height: max-content;
+    border-radius: 10px;
+    margin-right: 50px;
+    /* align-content: flex-end; */
+   
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Amiri', serif, sans-serif;
+}
+
+input {
+    background-color: beige;
+}
+
+#calculate_btn {
+    background-color: rgb(135, 201, 2);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 165px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.output{
+    grid-area: output;
+    background-color: rgb(146, 255, 233);
+    border-radius: 10px;
+    width: 60vw;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Courier New',Courier,monospace;
+    
+
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

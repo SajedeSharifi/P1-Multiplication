@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    /* font-feature-settings: inherit; */
+    font-family: alibaba, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, sans-serif;
+    border: 0 solid var(--border-1);
+    justify-items: center;
+}
+.mt-auto {
+    margin-top: auto !important;
+}
+.footer {
+    border-top: solid 1px gray;
+    background-color: white;
+    color: #2b2f33;
+    font-size: 15px;
+    
+    /* display: flex; */
+}
+#footerGrid {
+    display: grid;
+    padding: 6rem 2 0 0;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    gap: 16px;
+    direction: rtl;
+    padding-top: 10%;
+    
+}
+#alibabaPart,
+#service,
+#info{
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+.footer__business-logos{
+    text-align: left;
+    
+}
+.footer__business-logos > img {
+    margin-bottom: 3rem;
+    margin-right: auto;
+    display: block;
+}
+.footer__business-logos > address {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 7rem;
+}
+.footer__business-logos > address > p{
+    margin-bottom: 3rem;
+}
+address > span {
+    display: block;
+    color: gray;
+    font-weight: 500;
+}
+
+
+#moreLinks{
+    
+    position: relative;
+    text-align: right;
+    /* position: absolute; */
+    right: 0;
+    top: 10px;    
+}
+#truncate > a {
+    color: gray;
+    font-weight: 400;
+    margin-left: 1.5em;
+    width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: inherit;
+}
+#more_btn{
+    position: absolute;
+    right: 0;
+    top:auto;
+    direction: rtl;
+    
+}
+#lastElements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+#smallText{
+    color: gray;
+    font-weight: 400;
+}
+#logos{
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    align-items: middle;
+    direction: rtl;
+    margin: 0 4;
+    :hover{
+        fill: #3182ce;
+    }
+}
+
