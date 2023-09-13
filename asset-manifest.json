@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/P1-Multiplication.git/static/css/main.e69d31eb.css",
-    "main.js": "/P1-Multiplication.git/static/js/main.28e0a25a.js",
+    "main.css": "/P1-Multiplication.git/static/css/main.fe541efe.css",
+    "main.js": "/P1-Multiplication.git/static/js/main.40e17db1.js",
     "static/js/787.00f40e95.chunk.js": "/P1-Multiplication.git/static/js/787.00f40e95.chunk.js",
     "static/media/logo.gif": "/P1-Multiplication.git/static/media/logo.dae008466ca37a5ea8d7.gif",
     "index.html": "/P1-Multiplication.git/index.html",
-    "main.e69d31eb.css.map": "/P1-Multiplication.git/static/css/main.e69d31eb.css.map",
-    "main.28e0a25a.js.map": "/P1-Multiplication.git/static/js/main.28e0a25a.js.map",
+    "main.fe541efe.css.map": "/P1-Multiplication.git/static/css/main.fe541efe.css.map",
+    "main.40e17db1.js.map": "/P1-Multiplication.git/static/js/main.40e17db1.js.map",
     "787.00f40e95.chunk.js.map": "/P1-Multiplication.git/static/js/787.00f40e95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e69d31eb.css",
-    "static/js/main.28e0a25a.js"
+    "static/css/main.fe541efe.css",
+    "static/js/main.40e17db1.js"
   ]
 }
