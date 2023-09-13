@@ -1,0 +1,27 @@
+#lastRow {
+  width: 78vw;
+}
+#lastElements {
+  font-family: "Noto Sans Arabic", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 25px;
+  color: gray;
+  font-size: 14px;
+  margin-top: 25px;
+}
+#logos {
+  display: inline-block;
+  text-align: left;
+  color: gray;
+  font-weight: 400;
+  align-items: middle;
+  direction: rtl;
+
+  :hover {
+    fill: #3182ce;
+  }
+}

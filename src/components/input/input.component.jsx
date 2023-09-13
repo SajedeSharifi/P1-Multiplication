@@ -9,6 +9,7 @@ const Input = () => {
     const [mul, setMul] = useState("");
     const [results, setResults] = useState([]);
 
+    // setResults(...results,{mul});
     const handleFirstNum = (e) => {
         setFirstNum(e.target.value);
     };
@@ -24,7 +25,7 @@ const Input = () => {
         let x = parseInt(firstNum, 0);
         let y = parseInt(secNum, 0);
         setMul(x*y);
-        // console.log(x,y,mul);
+        // setResults(...results,{id:nextId++,val:mul});
         reset();
     };
 

@@ -1,0 +1,30 @@
+#headerNavbar {
+    display: flex;
+    font-size: 17px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-weight: 500;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+#collasible-nav-dropdown{
+    border-radius: 5px;
+    width: 85px;
+    text-align: center;
+    
+}
+
+#collasible-nav-dropdown:hover {
+    background-color:rgb(244, 243, 243);
+}
+
+#header-links {
+    border-radius: 5px;
+    padding: 1em;
+}
+#header-links:hover {
+    background-color: rgb(244, 243, 243);
+}
+#vrDivider {
+    height: 20px;
+    margin-top: 12px;
+}

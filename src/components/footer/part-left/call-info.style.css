@@ -1,0 +1,20 @@
+#info{
+    display: grid;
+    text-align: end;
+    direction: ltr;
+    color: rgb(53, 53, 53);
+}
+#info p{
+    font-weight: normal;
+}
+#info address span {
+    display: flex;
+    direction: ltr;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.card-footer {
+    display: grid;
+    border: 1px solid rgb(231, 231, 231);
+}
+

@@ -1,0 +1,13 @@
+#more-links {
+  width: 3fr;
+  direction: rtl;
+}
+#more-links a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

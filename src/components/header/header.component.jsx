@@ -1,9 +1,8 @@
 import React from "react";
 import NavbarHeader from "./navbar.component";
 import './header.style.css'
-
 const Header = () => {
-    return(
+    return (
         <div className="header">
             <div className="options">
                 <NavbarHeader/>
